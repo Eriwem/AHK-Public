@@ -15,13 +15,11 @@ return
 ; Pour aller à gauche
 
 +WheelUp::
-Send, LButton
-MouseMove, 50, 0 , 1, R
+MouseClickDrag, LButton, 0, 0, 40, 0 , 10, Relative
 return
 
 ; Pour aller à droite
 
 +WheelDown::
-Send, LButton
-MouseMove, -50, 0 , 1, R
+MouseClickDrag, LButton, 0, 0, -40, 0 , 10, Relative
 return
