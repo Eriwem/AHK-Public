@@ -6,7 +6,7 @@
 Send, ^=
 return
 
-; Script pour le zoom out out
+; Script pour le zoom out
 ^WheelDown::
 Send, ^-
 return
