@@ -18,7 +18,7 @@ return
 
 ; horizontal navigation script (must have cursor on the timeline)
 ; input : holding "shift" while scrolling down/up with the mouse wheel
-; output : click and drag cursor left or right
+; output : click and drag cursor left or right...
 
 +WheelUp::
 MouseClickDrag, L, 0, 0, -100, 0 , 0, Relative
